@@ -1,2 +1,6 @@
-pywhatkit==5.4
-pandas==1.0.0
+pywhatkit
+pandas==1.1.5
+xlrd==2.0.1
+lxml==4.9.1
+html5lib
+openpyxl

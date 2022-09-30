@@ -2,12 +2,6 @@ import pywhatkit
 from datetime import datetime
 
 class WhatsAppMessageSender:
-
-    # The hour value during which the message is sent
-    _scheduled_hour = 0
-    # The minute value at which the message is sent 
-    _scheduled_minute = 0
-
     """
     Constructor method for the WhatsAppMessageSender class
 
@@ -27,7 +21,8 @@ class WhatsAppMessageSender:
     returns:
         True/ False 
     """
-    def is_last_message(self):
+    def __is_last_message(self):
+        print("Checking if the message is a last one or not.")
         return self.counter - 1 == 0
 
     """
@@ -43,8 +38,11 @@ class WhatsAppMessageSender:
     returns:
         message: Message text embedded with the other params values provided
     """
-    def formulate_message_body(self, loan_amount, interest_rate, contact_number, message):
-        pass
+    def __formulate_message_body(self, loan_amount, interest_rate, contact_number, message):
+        print("Formulating the message body.")
+
+        #TODO: Modify the message body logic
+        return message
 
     """
     Method to send the WhatsApp message to the customer.
@@ -58,37 +56,51 @@ class WhatsAppMessageSender:
     returns:
         None
     """
-    def send_message(self, loan_amount, interest_rate, contact_number, message):
+    def send_message(self, customer):
+        print("Sending message...")
 
+        #TODO: Change the variables based on actual data being provided
+        loan_amount = customer["Loan_Amount"]
+        interest_rate = customer["Interest_Rate"]
+        contact_number = customer["Contact"]
+        message = customer["Message"]
+        
         # Current hour
-        _scheduled_hour = (datetime.now().hour)%24
+        scheduled_hour = (datetime.now().hour)%24
 
         # Current minute
-        _scheduled_minute = datetime.now().minute
+        scheduled_minute = datetime.now().minute
 
         
         # If the current minute is closer to the end of an hour,
         # the message is scheduled to deliver in the next hour.
-        if (_scheduled_minute + 2) >= 60:
-                _scheduled_hour = _scheduled_hour + 1
-        if not self.is_last_message():
-            _scheduled_minute = (_scheduled_minute + 2)%60
+        if (scheduled_minute + 2) >= 60:
+                scheduled_hour = scheduled_hour + 1
+        if not self.__is_last_message():
+            scheduled_minute = (scheduled_minute + 2)%60
 
         # Adding extra buffer time for scheduling the last message since
         # there is an issue that the last message is not getting delivered.
         else:
-            _scheduled_minute = (_scheduled_minute + 4)%60
+           scheduled_minute = (scheduled_minute + 4)%60
         
         # Send message to customer
         try:
+            contact_number = str(contact_number)
+            if "+91" not in contact_number:
+                print("Adding extension code to the contact number.")
+                contact_number = "+91" + contact_number
+
             pywhatkit.sendwhatmsg(
-                f"{contact_number}",
-                f"{self.formulate_message_body(loan_amount, interest_rate, contact_number, message)}",
-                _scheduled_hour,
-                _scheduled_minute
+                contact_number,
+                self.__formulate_message_body(loan_amount, interest_rate, contact_number, message),
+                scheduled_hour,
+                scheduled_minute
             )
-        except Exception:
-            pass
+
+            print("Message is being delivered to the customer...")
+        except Exception as e:
+            print(str(e))
 
         self.counter = self.counter - 1
 
