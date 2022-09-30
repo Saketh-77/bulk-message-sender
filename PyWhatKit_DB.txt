@@ -1,0 +1,165 @@
+Date: 27/9/2022
+Time: 20:7
+Phone Number: +919182595469
+Message: Hi
+--------------------
+Date: 27/9/2022
+Time: 20:9
+Phone Number: +919440604669
+Message: Hi Naanna, python script dwaara niku message pampistunna
+--------------------
+Date: 27/9/2022
+Time: 20:11
+Phone Number: +919440604669
+Message: Hi Naanna, python script dwaara niku message pampistunna
+--------------------
+Date: 27/9/2022
+Time: 20:13
+Phone Number: +919440604669
+Message: Hi Naanna, python script dwaara niku message pampistunna
+--------------------
+Date: 27/9/2022
+Time: 20:17
+Phone Number: +919440604669
+Message: Hello Hello
+--------------------
+Date: 27/9/2022
+Time: 20:21
+Phone Number: +917416593482
+Message: Hi Amma, python code dwaara niku whatsapp message pedtunna
+--------------------
+Date: 27/9/2022
+Time: 20:30
+Phone Number: +919381396591
+Message: Hi dear, I am python 3.6.3. This is an automated message
+--------------------
+Date: 27/9/2022
+Time: 20:43
+Phone Number: +919381396591
+Message: Hi! This is an automated test message
+--------------------
+Date: 27/9/2022
+Time: 20:45
+Phone Number: +919182595469
+Message: Hi! This is an automated test message
+--------------------
+Date: 27/9/2022
+Time: 20:47
+Phone Number: +919440604669
+Message: Hi! This is an automated test message
+--------------------
+Date: 27/9/2022
+Time: 20:49
+Phone Number: +917416593482
+Message: Hi! This is an automated test message
+--------------------
+Date: 27/9/2022
+Time: 21:2
+Phone Number: +919381396591
+Message: Message ID #4! This is an automated test message which is scheduled to deliver at #21:#4
+--------------------
+Date: 27/9/2022
+Time: 21:4
+Phone Number: +919182595469
+Message: Message ID #3! This is an automated test message which is scheduled to deliver at #21:#6
+--------------------
+Date: 27/9/2022
+Time: 21:6
+Phone Number: +919440604669
+Message: Message ID #2! This is an automated test message which is scheduled to deliver at #21:#8
+--------------------
+Date: 27/9/2022
+Time: 21:8
+Phone Number: +917416593482
+Message: Message ID #1! This is an automated test message which is scheduled to deliver at #21:#10
+--------------------
+Date: 27/9/2022
+Time: 21:13
+Phone Number: +919381396591
+Message: Message ID #5! This is an automated test message which is scheduled to deliver at 21:16
+--------------------
+Date: 27/9/2022
+Time: 21:17
+Phone Number: +919381396591
+Message: Message ID #5! This is an automated test message which is scheduled to deliver at 21:19
+--------------------
+Date: 27/9/2022
+Time: 21:19
+Phone Number: +919182595469
+Message: Message ID #4! This is an automated test message which is scheduled to deliver at 21:21
+--------------------
+Date: 27/9/2022
+Time: 21:21
+Phone Number: +919440604669
+Message: Message ID #3! This is an automated test message which is scheduled to deliver at 21:23
+--------------------
+Date: 27/9/2022
+Time: 21:23
+Phone Number: +917416593482
+Message: Message ID #2! This is an automated test message which is scheduled to deliver at 21:25
+--------------------
+Date: 27/9/2022
+Time: 21:25
+Phone Number: +919176755252
+Message: Message ID #1! This is an automated test message which is scheduled to deliver at 21:27
+--------------------
+Date: 27/9/2022
+Time: 22:50
+Phone Number: +919182595469
+Message: Message ID #6! This is an automated test message which is scheduled to deliver at 22:52
+--------------------
+Date: 27/9/2022
+Time: 22:52
+Phone Number: +919381396591
+Message: Message ID #5! This is an automated test message which is scheduled to deliver at 22:54
+--------------------
+Date: 27/9/2022
+Time: 22:54
+Phone Number: +919182595469
+Message: Message ID #4! This is an automated test message which is scheduled to deliver at 22:56
+--------------------
+Date: 27/9/2022
+Time: 22:56
+Phone Number: +919381396591
+Message: Message ID #3! This is an automated test message which is scheduled to deliver at 22:58
+--------------------
+Date: 27/9/2022
+Time: 22:58
+Phone Number: +919182595469
+Message: Message ID #2! This is an automated test message which is scheduled to deliver at 23:0
+--------------------
+Date: 27/9/2022
+Time: 23:0
+Phone Number: +919381396591
+Message: Message ID #1! This is an automated test message which is scheduled to deliver at 23:4
+--------------------
+Date: 27/9/2022
+Time: 23:9
+Phone Number: +919182595469
+Message: Message ID #6! This is an automated test message which is scheduled to deliver at 23:11
+--------------------
+Date: 27/9/2022
+Time: 23:11
+Phone Number: +919381396591
+Message: Message ID #5! This is an automated test message which is scheduled to deliver at 23:13
+--------------------
+Date: 27/9/2022
+Time: 23:13
+Phone Number: +919182595469
+Message: Message ID #4! This is an automated test message which is scheduled to deliver at 23:15
+--------------------
+Date: 27/9/2022
+Time: 23:15
+Phone Number: +919381396591
+Message: Message ID #3! This is an automated test message which is scheduled to deliver at 23:17
+--------------------
+Date: 27/9/2022
+Time: 23:17
+Phone Number: +919182595469
+Message: Message ID #2! This is an automated test message which is scheduled to deliver at 23:19
+--------------------
+Date: 27/9/2022
+Time: 23:19
+Phone Number: +919381396591
+Message: Message ID #1! This is an automated test message which is scheduled to deliver at 23:23
+--------------------
